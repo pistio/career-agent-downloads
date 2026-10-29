@@ -86,6 +86,15 @@ Your profiles, shortlist and application records are stored locally. AI-assisted
 - **PDFs:** Optional PDF support may download additional browser components. Some Linux systems need extra libraries.
 - **Backups:** Your files stay with you. Keep a separate backup using the [backup guide](docs/backup.md).
 
+## Support independent development
+
+Career Agent is independently developed and maintained. If it helps you, you can support ongoing work with a voluntary contribution. **Donations are optional and do not change access to the free software.**
+
+<p>
+  <a href="https://github.com/sponsors/jc-universe87"><img src="https://img.shields.io/badge/GitHub%20Sponsors-Support-0E2D5B?logo=githubsponsors&logoColor=white" alt="Support via GitHub Sponsors"></a>
+  <a href="https://ko-fi.com/pistio"><img src="https://img.shields.io/badge/Ko--fi-Buy%20a%20coffee-0E2D5B?logo=kofi&logoColor=white" alt="Support via Ko-fi"></a>
+</p>
+
 ## Guides
 
 Start with the complete, illustrated user guide in your preferred language:

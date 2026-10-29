@@ -38,7 +38,7 @@
 | **Mac — Intel** | **[Download for Intel Mac (.pkg)](https://github.com/pistio/career-agent-downloads/releases/download/v1.0.0/CareerAgent-1.0.0-x86_64.pkg)** | Open the package to install Career Agent in Applications |
 | **Linux** | **[Download for Linux (.tar.gz)](https://github.com/pistio/career-agent-downloads/releases/download/v1.0.0/career-agent-1.0.0-linux.tar.gz)** | Extract, then run `sh install.sh`; Python 3.12+ required |
 
-**Installation help:** [Windows](docs/install-windows.md) · [macOS](docs/install-macos.md) · [Linux](docs/install-linux.md)  
+**Installation help:** [Windows](docs/install-windows.md) · [macOS](docs/install-macos.md) · [Linux](docs/install-linux.md)
 [All release files and SHA-256 checksums](https://github.com/pistio/career-agent-downloads/releases/tag/v1.0.0)
 
 ## A clearer way to look for work
@@ -92,7 +92,7 @@ Start with the complete, illustrated user guide in your preferred language:
 
 **[English](docs/manual.en.md)** · **[Deutsch](docs/manual.de.md)** · **[한국어](docs/manual.ko.md)** · **[Français](docs/manual.fr.md)** · **[Español](docs/manual.es.md)** · **[Português](docs/manual.pt.md)**
 
-Also available: [Windows installation](docs/install-windows.md) · [Mac installation](docs/install-macos.md) · [Linux installation](docs/install-linux.md) · [Backup and recovery](docs/backup.md) · [Release notes](release-notes-v1.0.0.md)
+Also available: [First-time GP locum guide](docs/gp-locum-guide.md) · [Windows installation](docs/install-windows.md) · [Mac installation](docs/install-macos.md) · [Linux installation](docs/install-linux.md) · [Backup and recovery](docs/backup.md) · [Release notes](release-notes-v1.0.0.md)
 
 The interface supports English, German, Korean, French, Spanish, and Portuguese (Portugal and Brazil).
 

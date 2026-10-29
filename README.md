@@ -1,58 +1,101 @@
-# Career Agent downloads
+<p align="center">
+  <img src="brand/career-agent-horizontal.svg" alt="Career Agent" width="340">
+</p>
 
-Career Agent is a local-first job-search and application assistant. It helps you find and assess opportunities,
-organise a shortlist, prepare truthful application documents and practise for interviews. It never submits an
-application or contacts an employer for you: you review, decide and send.
+<h3 align="center">Find the right job. Spend less time searching.</h3>
 
-![The Career Agent shortlist](docs/images/shortlist.en.jpg)
+<p align="center">
+  Career Agent helps you discover opportunities, understand which ones suit you, and prepare applications.<br>
+  <strong>It does the legwork. You make the decisions.</strong>
+</p>
 
-## Download Career Agent 1.0.0
+<p align="center">
+  <a href="#download"><strong>Download Career Agent</strong></a> ·
+  <a href="#how-it-works">How it works</a> ·
+  <a href="#guides">User guides</a> ·
+  <a href="#before-you-install">Before you install</a>
+</p>
 
-These links download the installer itself; no GitHub sign-in is required.
+<p align="center">
+  <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-0E2D5B">
+  <img alt="Free software" src="https://img.shields.io/badge/software-free-0E2D5B">
+  <img alt="MIT licence" src="https://img.shields.io/badge/licence-MIT-0E2D5B">
+  <img alt="Runs on your computer" src="https://img.shields.io/badge/local--first-your%20computer-0B4EA2">
+</p>
 
-| Platform | Direct download | Installation guide |
-| --- | --- | --- |
-| Windows 10/11, 64-bit | [CareerAgent-Setup-1.0.0.exe](https://github.com/pistio/career-agent-downloads/releases/download/v1.0.0/CareerAgent-Setup-1.0.0.exe) | [Windows](docs/install-windows.md) |
-| macOS, Apple silicon | [CareerAgent-1.0.0-arm64.pkg](https://github.com/pistio/career-agent-downloads/releases/download/v1.0.0/CareerAgent-1.0.0-arm64.pkg) | [macOS](docs/install-macos.md) |
-| macOS, Intel | [CareerAgent-1.0.0-x86_64.pkg](https://github.com/pistio/career-agent-downloads/releases/download/v1.0.0/CareerAgent-1.0.0-x86_64.pkg) | [macOS](docs/install-macos.md) |
-| Linux | [career-agent-1.0.0-linux.tar.gz](https://github.com/pistio/career-agent-downloads/releases/download/v1.0.0/career-agent-1.0.0-linux.tar.gz) | [Linux](docs/install-linux.md) |
+<p align="center">
+  <img src="docs/images/shortlist.en.jpg" alt="Career Agent shortlist showing job fit and decisions" width="850">
+</p>
 
-Windows and macOS installers include their own Python. The Linux archive requires Python 3.12 or newer.
+## Download
 
-## Before installing
+**Choose your computer.** These links download the actual installer—no GitHub sign-in or developer tools needed.
 
-- Career Agent is free under the MIT licence. Searching and AI-assisted writing use your own OpenAI API key by
-  default, and the provider charges separately by use. Set a spending limit in your provider account.
-- The Windows and macOS installers are unsigned, and the macOS packages are not notarised. Your operating system may
-  show a warning; the installation guides explain the expected prompts.
-- Native installers were tested on Windows Server 2022, macOS 14 on Apple silicon and macOS 15 on Intel. Windows 10
-  and 11 were not tested directly. Linux archive installation was tested on Ubuntu 24.04; other distributions may
-  need the system libraries described by the installer.
-- No job search, paid AI call, application submission or message was sent during installer testing.
+| Your computer | Download | What happens next |
+| :-- | :-- | :-- |
+| **Windows 10/11** (64-bit) | **[Download for Windows (.exe)](https://github.com/pistio/career-agent-downloads/releases/download/v1.0.0/CareerAgent-Setup-1.0.0.exe)** | Open the setup wizard; Python is included |
+| **Mac — Apple silicon** (M1/M2/M3/M4 or newer) | **[Download for Apple silicon (.pkg)](https://github.com/pistio/career-agent-downloads/releases/download/v1.0.0/CareerAgent-1.0.0-arm64.pkg)** | Open the package to install Career Agent in Applications |
+| **Mac — Intel** | **[Download for Intel Mac (.pkg)](https://github.com/pistio/career-agent-downloads/releases/download/v1.0.0/CareerAgent-1.0.0-x86_64.pkg)** | Open the package to install Career Agent in Applications |
+| **Linux** | **[Download for Linux (.tar.gz)](https://github.com/pistio/career-agent-downloads/releases/download/v1.0.0/career-agent-1.0.0-linux.tar.gz)** | Extract, then run `sh install.sh`; Python 3.12+ required |
 
-See the [v1.0.0 release notes](release-notes-v1.0.0.md) for the complete testing scope and known limitations.
+**Installation help:** [Windows](docs/install-windows.md) · [macOS](docs/install-macos.md) · [Linux](docs/install-linux.md)
+[All release files and SHA-256 checksums](https://github.com/pistio/career-agent-downloads/releases/tag/v1.0.0)
 
-## Verify a download
+## A clearer way to look for work
 
-The release includes `SHA256SUMS` plus a separate `.sha256` file for each installer. The expected SHA-256 values are:
+| | |
+| :-- | :-- |
+| **Find opportunities** | Tell Career Agent what kind of work you want. It can search supported job sources and collect opportunities for review. |
+| **See what fits** | Compare pay, location, requirements and career direction—with reasons, not just a score. Missing details remain marked as unknown. |
+| **Keep one Shortlist** | Sort through jobs with Yes, Maybe, No or Skip. Keep notes and track what you have already considered. |
+| **Prepare applications** | Draft a tailored CV, cover letter and supporting statement using your own career information. Review and edit before using anything. |
+| **Get interview-ready** | Prepare for questions, practise answers and keep track of applications and follow-ups. |
 
-```text
-68140ec3628b49619cdee2848adacee4329e2160adeb1f5d302ac8a444f4a56a  CareerAgent-Setup-1.0.0.exe
-c0c499ed416e8a4978fbb19c45d9b6d2195ca46c90e8bd1a7fd460c1a366b9af  CareerAgent-1.0.0-arm64.pkg
-72b222d105a05f8ee594c766f2559019e111e7b21adb508902ae834cfeecd2d4  CareerAgent-1.0.0-x86_64.pkg
-defa1f2cfb13c9746bcc5a5e9b772e67bfbfc6350b92372712f1696c468219ac  career-agent-1.0.0-linux.tar.gz
-```
+<table>
+<tr>
+<td width="50%"><img src="docs/images/role.en.jpg" alt="Job details with reasons and facts to check"><br><sub><strong>Understand each opportunity.</strong> See what fits and what needs checking.</sub></td>
+<td width="50%"><img src="docs/images/documents.en.jpg" alt="Application documents"><br><sub><strong>Start with a useful draft.</strong> Tailor your documents, then review them yourself.</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/images/interview.en.jpg" alt="Interview preparation"><br><sub><strong>Prepare for interviews.</strong> Practise with your own experience.</sub></td>
+<td width="50%"><img src="docs/images/home.en.jpg" alt="Career Agent home screen"><br><sub><strong>Know what comes next.</strong> Keep applications and follow-ups organised.</sub></td>
+</tr>
+</table>
 
-On Windows, run `Get-FileHash <filename>` in PowerShell. On macOS or Linux, run `shasum -a 256 <filename>`.
+## How it works
+
+1. **Install and open.** Career Agent runs on your computer and opens in your browser. The included example profile helps you explore first.
+2. **Add your career information and job preferences.** You control what goes into your profile.
+3. **Add your own API key when you're ready to search.** Review the results, prepare drafts and decide what to do next.
+
+An optional weekly search can help keep your Shortlist fresh. It depends on your computer's scheduler and configuration.
+
+## Your career. Your decisions.
+
+Career Agent is designed to assist—not act as your representative. **It does not submit applications, send CVs or contact employers for you.** It helps you prepare; you decide what to send.
+
+It uses automated checks to flag some unsupported claims, but **AI can still make mistakes**. Check job adverts, salaries, dates and every application document yourself before relying on them.
+
+Your profiles, shortlist and application records are stored locally. AI-assisted features and job searches send the necessary information to external providers; this is not a fully offline application.
+
+## Before you install
+
+- **Price:** Career Agent software is free under the [MIT licence](LICENSE). AI-assisted searching and writing use your own OpenAI API key by default, with **separate usage charges**. [Create an API key](https://platform.openai.com/api-keys) and set a spending limit.
+- **Security warnings:** The Windows installer is unsigned; macOS packages are unsigned and not notarised. Your computer may display a warning. Follow the platform guide and install only files you trust.
+- **Platform testing:** Native installation was tested on Windows Server 2022, macOS 14 (Apple silicon) and macOS 15 (Intel); Linux was tested on Ubuntu 24.04. Not every consumer Windows version, Mac upgrade/uninstall scenario or Linux distribution was independently tested.
+- **PDFs:** Optional PDF support may download additional browser components. Some Linux systems need extra libraries.
+- **Backups:** Your files stay with you. Keep a separate backup using the [backup guide](docs/backup.md).
 
 ## Guides
 
-The user guide is available in
-[English](docs/manual.en.md), [Deutsch](docs/manual.de.md), [한국어](docs/manual.ko.md),
-[Français](docs/manual.fr.md), [Español](docs/manual.es.md) and [Português](docs/manual.pt.md).
-Everything about a person stays in their local profile and data folders. Keep a private backup; the
-[backup guide](docs/backup.md) explains what to copy.
+Start with the complete, illustrated user guide in your preferred language:
 
-## Licence
+**[English](docs/manual.en.md)** · **[Deutsch](docs/manual.de.md)** · **[한국어](docs/manual.ko.md)** · **[Français](docs/manual.fr.md)** · **[Español](docs/manual.es.md)** · **[Português](docs/manual.pt.md)**
 
-Career Agent is distributed under the [MIT licence](LICENSE).
+Also available: [First-time GP locum guide](docs/gp-locum-guide.md) · [Windows installation](docs/install-windows.md) · [Mac installation](docs/install-macos.md) · [Linux installation](docs/install-linux.md) · [Backup and recovery](docs/backup.md) · [Release notes](release-notes-v1.0.0.md)
+
+The interface supports English, German, Korean, French, Spanish, and Portuguese (Portugal and Brazil).
+
+---
+
+<sub>Career Agent 1.0.0 · Local-first job-search and application assistant · MIT-licensed software. This repository provides the public downloads and guides. Installers are provided as-is; no employment outcome is guaranteed.</sub>

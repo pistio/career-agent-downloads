@@ -92,7 +92,7 @@ Start with the complete, illustrated user guide in your preferred language:
 
 **[English](docs/manual.en.md)** · **[Deutsch](docs/manual.de.md)** · **[한국어](docs/manual.ko.md)** · **[Français](docs/manual.fr.md)** · **[Español](docs/manual.es.md)** · **[Português](docs/manual.pt.md)**
 
-Also available: [First-time GP locum guide](docs/gp-locum-guide.md) · [Windows installation](docs/install-windows.md) · [Mac installation](docs/install-macos.md) · [Linux installation](docs/install-linux.md) · [Backup and recovery](docs/backup.md) · [Release notes](release-notes-v1.0.0.md)
+Also available: [Windows installation](docs/install-windows.md) · [Mac installation](docs/install-macos.md) · [Linux installation](docs/install-linux.md) · [Backup and recovery](docs/backup.md) · [Release notes](release-notes-v1.0.0.md)
 
 The interface supports English, German, Korean, French, Spanish, and Portuguese (Portugal and Brazil).
 
